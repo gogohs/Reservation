@@ -1,0 +1,11 @@
+market\external\Product.class
+market\config\kafka\KafkaProcessor.class
+market\Reserved.class
+market\Reservation.class
+market\PolicyHandler.class
+market\ReservationRepository.class
+market\ReservationController.class
+market\Application.class
+market\external\ProductService.class
+market\AbstractEvent.class
+market\ReservationCanceled.class
