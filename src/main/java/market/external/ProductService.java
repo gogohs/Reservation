@@ -12,7 +12,7 @@ import java.util.Date;
  * Created by uengine on 2018. 11. 21..
  */
 
-@FeignClient(name="Product", url="http://localhost:8081")// url="http://Product:8080")
+@FeignClient(name="Product", url="http://Product:8080") // http://localhost:8081")//
 public interface ProductService {
 
     @RequestMapping(method= RequestMethod.PATCH, path="/productupdate")
